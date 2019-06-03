@@ -2,13 +2,13 @@
 
 ## EXTENSIONS
 
-Apache Conf
-ESLint
-Material Theme
-Prettier
-Vetur
+1. Apache Conf
+2. ESLint
+3. Material Theme
+4. Prettier
+5. Vetur
 
-## Setup
+## SETUP
 
 1. Add extensions
 2. Add settings.json
