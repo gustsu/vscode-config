@@ -1,0 +1,82 @@
+{
+  //VSCODE CONFIGS
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+
+  "workbench.iconTheme": "vs-minimal",
+
+  "window.zoomLevel": 0,
+
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false
+  },
+
+  "editor.tabSize": 4,
+
+  "editor.autoIndent": true,
+
+  //EMMET
+  "emmet.includeLanguages": {
+    "PHP": "php"
+  },
+
+  "editor.formatOnSave": true,
+
+  // "[javascript]": {
+  // 	"editor.formatOnSave": true
+  // },
+
+  // "[vue]": {
+  // 	"editor.formatOnSave": true
+  // },
+
+  // "[json]": {
+  // 	"editor.formatOnSave": true
+  // },
+
+  // "[css]": {
+  // 	"editor.formatOnSave": true
+  // },
+
+  // "[scss]": {
+  // 	"editor.formatOnSave": true
+  // },
+
+  "editor.insertSpaces": false,
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  //VETUR
+  "vetur.validation.template": false,
+
+  //ESLINT
+  "eslint.autoFixOnSave": true,
+
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "json",
+      "autoFix": true
+    }
+  ]
+}
