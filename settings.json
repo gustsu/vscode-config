@@ -1,6 +1,9 @@
 {
   //VSCODE CONFIGS
-  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  
+  //Pick One
+  //"workbench.colorTheme": "Material Theme Darker High Contrast",
+  //"workbench.colorTheme": "Material Theme Ocean High Contrast",
 
   "workbench.iconTheme": "vs-minimal",
 
