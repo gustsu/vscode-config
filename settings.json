@@ -1,11 +1,6 @@
 {
-  //VSCODE CONFIGS
-  
-  //Pick One
-  //"workbench.colorTheme": "Material Theme Darker High Contrast",
-  //"workbench.colorTheme": "Material Theme Ocean High Contrast",
-
-  "workbench.iconTheme": "vs-minimal",
+  //BASICS
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
 
   "window.zoomLevel": 0,
 
@@ -19,67 +14,78 @@
 
   "editor.tabSize": 4,
 
-  "editor.autoIndent": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  },
+
+  "workbench.iconTheme": "eq-material-theme-icons-light",
 
   //EMMET
   "emmet.includeLanguages": {
     "PHP": "php"
   },
 
-  "editor.formatOnSave": true,
+  //FORMAT ON SAVE AND DEFAULT FORMATTER
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-  // "[javascript]": {
-  // 	"editor.formatOnSave": true
-  // },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-  // "[vue]": {
-  // 	"editor.formatOnSave": true
-  // },
+  "[scss]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-  // "[json]": {
-  // 	"editor.formatOnSave": true
-  // },
-
-  // "[css]": {
-  // 	"editor.formatOnSave": true
-  // },
-
-  // "[scss]": {
-  // 	"editor.formatOnSave": true
-  // },
-
-  "editor.insertSpaces": false,
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
   "[jsonc]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   "[javascript]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+
+  "[vue]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.insertSpaces": false,
 
   //VETUR
   "vetur.validation.template": false,
 
   //ESLINT
-  "eslint.autoFixOnSave": true,
+  "eslint.autoFixOnSave": false,
 
-  "eslint.validate": [
-    {
-      "language": "vue",
-      "autoFix": true
-    },
-    {
-      "language": "html",
-      "autoFix": true
-    },
-    {
-      "language": "javascript",
-      "autoFix": true
-    },
-    {
-      "language": "json",
-      "autoFix": true
-    }
-  ]
+  //UNNEEDED ESLINT CONFIGS
+  // "eslint.validate": [
+  //   {
+  //     "language": "vue",
+  //     "autoFix": true
+  //   },
+  //   {
+  //     "language": "html",
+  //     "autoFix": true
+  //   },
+  //   {
+  //     "language": "javascript",
+  //     "autoFix": true
+  //   },
+  //   {
+  //     "language": "json",
+  //     "autoFix": true
+  //   }
+  // ]
 }
